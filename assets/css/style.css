@@ -1,3 +1,53 @@
+:root {
+    --primary: #1e272e;
+    --accent1: #3c40c6;
+    --accent2: #00d8d6;
+    --fontcolor: #d2dae2;
+}
+/* Using Swedish Palette on flatuicolors.com */
+
+* {
+    box-sizing: border-box;
+    background-color: var(--primary);
+    font-size: 16px;
+    line-height: 1.1;
+    font-family: "Segoe UI", "Frutiger", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: var(--fontcolor);
+}
+
+#banner-image {
+    /* background-image: url("../images/digital-marketing-meeting.jpg");  */
+    position: relative;
+    background-color: var(--accent1);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+    height: 400px;
+    width: 100%;
+}
+
 h1 {
-    color: green;
+    display: inline;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    margin: 0 0 0 25px;
+    font-size: 4em;
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    margin: 15px 0 0 25px;
+    font-size: 2em;
+}
+
+#profile {
+    display: inline;
+    float: right;
+    position: absolute;
+    top: 15%;
+    right: 2%;
 }
