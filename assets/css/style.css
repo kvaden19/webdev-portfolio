@@ -10,7 +10,6 @@
     box-sizing: border-box;
     background-color: var(--primary);
     font-size: 16px;
-    line-height: 1.1;
     font-family: "Segoe UI", "Frutiger", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: var(--fontcolor);
 }
@@ -21,7 +20,6 @@
     background-color: var(--accent1);
     background-position: center;
     background-size: cover;
-    margin-bottom: 25px;
     height: 400px;
     width: 100%;
 }
@@ -32,6 +30,7 @@ h1 {
     top: 15%;
     left: 0;
     margin: 0 0 0 25px;
+    background-color: var(--accent1);
     font-size: 4em;
 }
 
@@ -41,6 +40,7 @@ h2 {
     top: 30%;
     left: 0;
     margin: 15px 0 0 25px;
+    background-color: var(--accent1);
     font-size: 2em;
 }
 
@@ -50,4 +50,82 @@ h2 {
     position: absolute;
     top: 15%;
     right: 2%;
+}
+
+nav {
+    clear: both;
+    height: 35px;
+    width: 100%;
+    background-color: var(--accent2);
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    background-color: var(--accent2);
+    padding: 4px 0 0 5%;
+}
+
+nav a {
+    background-color: var(--accent2);
+    color: var(--primary);
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+main {
+    margin: 5%;
+}
+
+p {
+    line-height: 1.2;
+    margin: 8px 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 5px 0px;
+}
+
+h4 {
+    font-size: 1.25em;
+    padding: 5px 0px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+article {
+    float: left;
+    justify-content: center;
+    width: 50%;
+    padding: 15px 10px 15px 0;
+}
+
+article img {
+    padding: 5px 0px;
+}
+
+article p {
+    padding-right: 100px;
+}
+
+#contact li {
+    float: left;
+    width: 5%
+}
+
+footer {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0.8em;
 }
