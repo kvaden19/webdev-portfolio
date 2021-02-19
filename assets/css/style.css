@@ -1,5 +1,5 @@
 :root {
-    --primary: #1e272e;
+    --primary: #090504;
     --accent1: #3c40c6;
     --accent2: #00d8d6;
     --fontcolor: #d2dae2;
@@ -15,9 +15,9 @@
 }
 
 #banner-image {
-    /* background-image: url("../images/digital-marketing-meeting.jpg");  */
+    background-image: url("../images/alain-pham-bridge.jpg");
     position: relative;
-    background-color: var(--accent1);
+    /* background-color: var(--accent1); */
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -27,20 +27,20 @@
 h1 {
     display: inline;
     position: absolute;
-    top: 15%;
+    bottom: 18%;
     left: 0;
     margin: 0 0 0 25px;
-    background-color: var(--accent1);
+    background-color: var(--primary);
     font-size: 4em;
 }
 
 h2 {
     display: inline;
     position: absolute;
-    top: 30%;
+    bottom: 10%;
     left: 0;
     margin: 15px 0 0 25px;
-    background-color: var(--accent1);
+    background-color: var(--primary);
     font-size: 2em;
 }
 
@@ -48,8 +48,10 @@ h2 {
     display: inline;
     float: right;
     position: absolute;
-    top: 15%;
-    right: 2%;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 300px;
 }
 
 nav {
@@ -112,6 +114,8 @@ article {
 
 article img {
     padding: 5px 0px;
+    height: 200px;
+    width: 200px;
 }
 
 article p {
@@ -120,7 +124,13 @@ article p {
 
 #contact li {
     float: left;
-    width: 5%
+    width: 10%
+}
+
+#contact img {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
 }
 
 footer {
