@@ -22,10 +22,10 @@ I also confirmed my suspicion that I'm a back-end developer at heart and will pr
 
 ## Future Work
 
-    * Can CSS be simplied? The media query for mobile is doing a lot of work
-    * My profile photo / background image could flow into each other better 
-    * On mobile, the profile photo with half border needs to be centered
-    * As I create more portfolio-ready pieces, they will replace the placholder text and doggos (sorry Bruce!)
+* Can CSS be simplied? The media query for mobile is doing a lot of work
+* My profile photo / background image could flow into each other better 
+* On mobile, the profile photo with half border needs to be centered
+* As I create more portfolio-ready pieces, they will replace the placholder text and doggos (sorry Bruce!)
 
 ## Credits
 
