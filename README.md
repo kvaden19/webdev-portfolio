@@ -13,16 +13,6 @@ https://kvaden19.github.io/webdev-portfolio/
 The page contains my name, photo, a short About Me section, several portfolio pieces, and my contact information. It is meant to be the first piece of content a potential employer or collaborator might see about me. Using this page they can see a snapshot of my recent projects, follow links to GitHub if they'd like to dive into the details,
 and/or contact me via email, GitHub, or LinkedIn.
 
-
-!["Header and About Me on Desktop"](assets/images/desktop-header.png)
-Header and About Me on Desktop
-
-!["Portfolio Section on Desktop"](assets/images/desktop-portfolio.png)
-Portfolio Section on Desktop
-
-!["Header and About Me on Mobile"](assets/images/mobile-header.png)
-Header and About Me on Mobile
-
 ## Lessons Learned 
 
 This project forced me to wrap my head around CSS layout, box-model, Flexbox, and media queries in a way that's just not possible with simple class exercises.
