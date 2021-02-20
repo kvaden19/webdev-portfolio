@@ -1,7 +1,7 @@
 :root {
     --primary: #090504;
     --accent1: #3c40c6;
-    --accent2: #00d8d6;
+    --accent2: #00d8d6;     /*delete after re-doing nav bar */
     --fontcolor: #d2dae2;
 }
 /* Using Swedish Palette on flatuicolors.com */
@@ -15,43 +15,42 @@
 }
 
 #banner-image {
-    background-image: url("../images/alain-pham-bridge.jpg");
     position: relative;
-    /* background-color: var(--accent1); */
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/alain-pham-bridge.jpg");
     background-position: center;
     background-size: cover;
-    height: 400px;
-    width: 100%;
 }
 
 h1 {
-    display: inline;
     position: absolute;
-    bottom: 18%;
+    bottom: 20%;
     left: 0;
-    margin: 0 0 0 25px;
+    display: inline;
+    margin: 0 0 0 2.5%;
     background-color: var(--primary);
     font-size: 4em;
 }
 
 h2 {
-    display: inline;
     position: absolute;
     bottom: 10%;
     left: 0;
-    margin: 15px 0 0 25px;
+    display: inline;
+    margin: 1.5% 0 0 2.5%;
     background-color: var(--primary);
     font-size: 2em;
 }
 
 #profile {
-    display: inline;
-    float: right;
     position: absolute;
     top: 0;
     right: 0;
-    height: 400px;
+    float: right;
+    display: inline;
     width: 300px;
+    height: 400px;
 }
 
 nav {
