@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kelly Vaden</title>
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -11,78 +12,98 @@
         <div id="banner-image">
             <h1>KELLY VADEN</h1>
             <h2>Full Stack Web Developer</h2>
-            <img id="profile" src="assets/images/profile-removebg-preview.png" /> 
+            <img id="profile" src="assets/images/profile-removebg-preview.png" 
+            alt="A headshot of Kelly, who is a brunette woman in her early 30s. She is smiling and focused on something off-camera." /> 
         </div>
     </header>
     <nav>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="about">
             <h3>About Me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae aliquet massa. Quisque porta leo est, vel sagittis odio eleifend vitae. 
+            <p>Hello! I'm Kelly, a software developer based in Pittsburgh, PA. 
             </p>
-            <p>Aliquam ut lectus sit amet elit gravida tincidunt. Nullam vitae neque consequat, semper neque ut, iaculis purus. In sit amet leo in nulla 
-                mollis sagittis. Vivamus mi est, dapibus molestie magna in, egestas venenatis ipsum. Maecenas elementum est non orci suscipit consequat. 
-                Morbi blandit ac lacus et fermentum. Donec dignissim dictum felis ut tristique. Curabitur fermentum faucibus ipsum, tempor lobortis ex semper sed. 
+            <p>I began my career as a mechanical engineer. As I worked on problems in the energy industry, I realized how much we depended on robust, user-friendly 
+                software and I became interested in designing those systems myself. I have experience with Python and SQL through my engineering roles, and I'm excited
+                to learning more of the web development stack through Rutgers University's Full Stack program. 
             </p>
-            <p>Nullam mattis, sapien id tempus rutrum, risus enim consectetur erat, nec aliquet metus felis cursus lacus. Aliquam erat volutpat. Vestibulum 
-                commodo sem id enim euismod hendrerit id quis sem. Vivamus eget sem ipsum.
+            <p>When I'm not coding, I can usually be found playing my bass guitar, running, or hanging out with my pets.
             </p>
         </section>
-        <section class="clearfix">
+        <section class="clearfix" id="portfolio">
             <h3>Portfolio</h3>
-            <article>
-                <h4>Horiseon Accessibility Refactor</h4>
-                <img src="assets/images/horiseon-semantic.png" /> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac turpis vitae mi cursus efficitur. Ut tincidunt tincidunt 
-                    tempor. Vivamus lacinia mi quis est facilisis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam purus libero, 
-                    interdum id varius sed, euismod et diam. Ut quam lorem, sagittis non velit in, suscipit ullamcorper ex. Aliquam erat volutpat.
-                </p>
-            </article>
-            <article>
-                <h4>Placeholder #1</h4>
-                <img src="assets/images/bruce-1.jpg" />  
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac turpis vitae mi cursus efficitur. Ut tincidunt tincidunt 
-                    tempor. Vivamus lacinia mi quis est facilisis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam purus libero, 
-                    interdum id varius sed, euismod et diam. Ut quam lorem, sagittis non velit in, suscipit ullamcorper ex. Aliquam erat volutpat.
-                </p>
-            </article>
-            <article>
-                <h4>Placeholder #2</h4>
-                <img src="assets/images/bruce-2.jpg" />  
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac turpis vitae mi cursus efficitur. Ut tincidunt tincidunt 
-                    tempor. Vivamus lacinia mi quis est facilisis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam purus libero, 
-                    interdum id varius sed, euismod et diam. Ut quam lorem, sagittis non velit in, suscipit ullamcorper ex. Aliquam erat volutpat.
-                </p>
-            </article>
-            <article>
-                <h4>Placeholder #3</h4>
-                <img src="assets/images/bruce-3.jpg" />  
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac turpis vitae mi cursus efficitur. Ut tincidunt tincidunt 
-                    tempor. Vivamus lacinia mi quis est facilisis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam purus libero, 
-                    interdum id varius sed, euismod et diam. Ut quam lorem, sagittis non velit in, suscipit ullamcorper ex. Aliquam erat volutpat.
-                </p>
-            </article>
-            <article>
-                <h4>Placeholder #4</h4>
-                <img src="assets/images/bruce-4.jpg" />  
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac turpis vitae mi cursus efficitur. Ut tincidunt tincidunt 
-                    tempor. Vivamus lacinia mi quis est facilisis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam purus libero, 
-                    interdum id varius sed, euismod et diam. Ut quam lorem, sagittis non velit in, suscipit ullamcorper ex. Aliquam erat volutpat.
-                </p>
-            </article>
+            <div class="flex-container">
+                <article id="highlight">
+                    <h4>Horiseon Accessibility Refactor</h4>
+                    <a href="https://kvaden19.github.io/rutgers-hw-1-code-refactor/" target="_blank">
+                        <img src="assets/images/horiseon-semantic.png" alt="A snippet of code showing semantic HTML and images with alt attributes"/> 
+                    </a>
+                    <p>In this project I overhauled an existing website's HTML and CSS to improve accessibility. This work included replacing non-semantic HTML elements
+                        with semantic elements, refactoring elements to follow a logical structure, and adding "alt" attributes to all images. This refactor will deliver 
+                        a much better user experience for anyone accessing the site with a screen reader. It should also improve the site's search engine results, which 
+                        is crucial since the company is a digital marketing firm offering SEO. 
+                    </p>
+                </article>
+                <article>
+                    <h4>Placeholder #1</h4>
+                    <a href="https://github.com/kvaden19/happy-pitbull" target="_blank">
+                        <img src="assets/images/bruce-1.jpg" alt="A placeholder image of Bruce the dog" /> 
+                    </a> 
+                    <p>I'm in the early stages of my programming journey and am still working on some additional portfolio pieces. Please check back soon! In the meantime,
+                        please enjoy a photo of my beloved pit mix, Bruce.
+                    </p>
+                </article>
+                <article>
+                    <h4>Placeholder #2</h4>
+                    <a href="https://github.com/kvaden19/happy-pitbull" target="_blank">
+                        <img src="assets/images/bruce-2.jpg" alt="A placeholder image of Bruce the dog" /> 
+                    </a> 
+                    <p>I'm in the early stages of my programming journey and am still working on some additional portfolio pieces. Please check back soon! In the meantime,
+                        please enjoy a photo of my beloved pit mix, Bruce.
+                    </p>
+                </article>
+                <article>
+                    <h4>Placeholder #3</h4>
+                    <a href="https://github.com/kvaden19/happy-pitbull" target="_blank">
+                        <img src="assets/images/bruce-3.jpg" alt="A placeholder image of Bruce the dog" /> 
+                    </a>  
+                    <p>I'm in the early stages of my programming journey and am still working on some additional portfolio pieces. Please check back soon! In the meantime,
+                        please enjoy a photo of my beloved pit mix, Bruce.
+                    </p>
+                </article>
+                <article>
+                    <h4>Placeholder #4</h4>
+                    <a href="https://github.com/kvaden19/happy-pitbull" target="_blank">
+                        <img src="assets/images/bruce-4.jpg" alt="A placeholder image of Bruce the dog" /> 
+                    </a> 
+                    <p>I'm in the early stages of my programming journey and am still working on some additional portfolio pieces. Please check back soon! In the meantime,
+                        please enjoy a photo of my beloved pit mix, Bruce.
+                    </p>
+                </article>
+            </div>
         </section>
         <section id = "contact">
             <h3> Contact </h3>
             <ul>
-                <li><img src="assets/images/gmail-logo.png" /> </li>
-                <li><img src="assets/images/GitHub-Mark-Light-64px.png" /> </li>
-                <li><img src="assets/images/linkedin-logo.png" /> </li>
+                <li>
+                    <a href="mailto:klvaden@gmail.com">
+                        <img src="assets/images/gmail-logo.png" alt="Gmail icon"/> </li>
+                    </a>
+                <li>
+                    <a href="https://github.com/kvaden19" target="_blank">
+                        <img src="assets/images/GitHub-Mark-Light-64px.png" alt="GitHub icon" /> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/klvaden/" target="_blank">
+                        <img src="assets/images/linkedin-logo.png" alt="LinkedIn icon"/> 
+                    </a>
+                </li>
             </ul>
         </section>
     </main>

@@ -8,7 +8,6 @@
 * {
     box-sizing: border-box;
     background-color: var(--primary);
-    font-size: 16px;
     font-family: "Segoe UI", "Frutiger", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: var(--fontcolor);
 }
@@ -30,7 +29,7 @@ h1 {
     display: inline;
     margin: 0 0 0 2.5%;
     background-color: var(--primary);
-    font-size: 4em;
+    font-size: 64px;
 }
 
 h2 {
@@ -40,7 +39,7 @@ h2 {
     display: inline;
     margin: 1.5% 0 0 2.5%;
     background-color: var(--primary);
-    font-size: 2em;
+    font-size: 32px;
 }
 
 #profile {
@@ -59,10 +58,16 @@ nav {
     height: 50px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 50px;
+}
+
 nav li {
     position: relative;
-    float: left;
-    width: 5%;
+    width: 120px;
     height: 50px;
     margin-left: 5%;
 }
@@ -72,10 +77,9 @@ nav a {
     bottom: 0;
     border: 1.5px solid var(--accent1);
     border-radius: 15px;
-    width: 115px;
-    padding: 8px;
-    margin: 5px;
-    font-size: 1.3em;
+    width: 120px;
+    padding: 8px 8px 9px 8px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -89,15 +93,16 @@ main {
 p {
     line-height: 1.2;
     margin: 8px 0px;
+    font-size: 16px;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 24px;
     padding: 5px 0px;
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: 18px;
     padding: 5px 0px;
 }
 
@@ -113,19 +118,37 @@ section {
 
 article {
     float: left;
-    justify-content: center;
     width: 50%;
     padding: 15px 10px 15px 0;
 }
 
 article img {
+    opacity: 0.6;
     padding: 5px 0px;
     height: 200px;
     width: 200px;
 }
 
+article img:hover {
+    opacity: 1.0;
+}
+
 article p {
     padding-right: 100px;
+}
+
+#highlight {
+    width: 100%;
+}
+
+#highlight img {
+    height: 400px;
+    width: 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #contact li {
@@ -143,5 +166,76 @@ footer {
     position: relative;
     bottom: 10px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 12px;
+}
+
+/* For tablet sized screens and smaller, collapse the portfolio pieces into one column */
+@media screen and (max-width: 800px) {
+    article {
+        width: 100%;
+    }
+  }
+
+/* For phones, streamline the header and collapse the nav links into one column */
+@media screen and (max-width: 500px) {
+    #banner-image {
+        background-image: none;
+    }
+
+    h1 {
+        position: static;
+        display: block;
+        font-size: 45px;
+    }
+
+    h2 {
+        position: static;
+        display: block;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    #profile {
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 310px;
+        border-style: solid;
+        border-color: var(--primary) #3c40c6  #3c40c6 var(--primary);
+        border-width: 5px;
+    }
+
+    nav {
+        height: 150px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 150px;
+    }
+
+    nav li {
+        height: 50px;
+    }
+
+    #highlight img {
+        height: 300px;
+        width: 300px;
+    }
+
+    article p {
+        padding-right: 15px;
+    }
+
+    #contact {
+        height: 50px;
+    }
+    
+    #contact li {
+        width: 25%;
+        margin-bottom: 10px;
+    }
 }
