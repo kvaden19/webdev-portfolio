@@ -29,7 +29,8 @@ I also confirmed my suspicion that I'm a back-end developer at heart and will pr
 
 ## Credits
 
-Background photo is by [Alain Pham on Unsplash]
+Background photo is by Alain Pham on Unsplash:
 (https://unsplash.com/photos/P_qvsF7Yodw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-I used [Flat UI Colors' Swedish Palette] (https://flatuicolors.com/) to help choose colors and accents
+I used Flat UI Colors' Swedish Palette to help choose colors and accents:
+(https://flatuicolors.com/)
